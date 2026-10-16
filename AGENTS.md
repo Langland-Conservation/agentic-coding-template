@@ -6,8 +6,8 @@ Canonical instruction contract for repos scaffolded from this template. Builds o
 1) Read:
    - `AGENTS.md`
    - `docs/workflow/PLAN.md`
-   - `docs/workflow/DECISIONS.md`
    - `docs/workflow/GATES.md`
+   - `docs/workflow/DECISIONS.md` on demand, by topic (do not read it in full)
 2) Run:
    - `./scripts/workflow.sh status`
    - `./scripts/workflow.sh prompt`
