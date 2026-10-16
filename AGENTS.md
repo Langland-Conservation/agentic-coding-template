@@ -11,6 +11,7 @@ Canonical instruction contract for repos scaffolded from this template. Builds o
 2) Run:
    - `./scripts/workflow.sh status`
    - `./scripts/workflow.sh prompt`
+   - In Claude Code, a `SessionStart` hook in `.claude/settings.json` runs both and injects their output (also after compaction); do not re-run them if that output is already in context.
 3) Do not begin implementation work that violates the current phase scope.
 
 ## Project Contract (Phase 1 required)

@@ -9,6 +9,7 @@ The default template is intentionally language-agnostic. Language-specific engin
 - Canonical assistant contract in `AGENTS.md`
 - Phase-gated planning and delivery workflow in `docs/workflow/`
 - A shell workflow CLI for status, prompt rendering, and doc validation
+- A Claude Code `SessionStart` hook (`.claude/settings.json`) that injects workflow status at session start and after compaction
 - CI checks that enforce template integrity
 
 ## Quick Start
